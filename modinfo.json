@@ -1,0 +1,43 @@
+{
+    "context": "server",
+    "identifier": "uk.pa.tetccbm",
+    "display_name": "The Combox Mod",
+    "description": "Comboxing with a tower defense aspect.",
+    "author": "TheEffectTheCause",
+    "version": "0.5",
+    "build": "108271",
+    "date": "2021/10/27",
+    "signature": "not yet implemented",
+	"forum": [],
+    "icon": [],
+    "scenes": {
+        "newgame": [
+            "coui//mods/uk.pa.tetccbm/new_game.js"
+        ]
+    },
+    "searchable": [
+        "combox",
+        "mod",
+        "theeffectthecause"
+    ],
+    "priority": 100,
+    "enabled": true,
+    "url": "",
+    "download": "",
+    "unitList": false,
+    "fileSystem": false,
+    "sort": "ComBoxMod",
+    "authors": [
+        "TheEffectTheCause"
+    ],
+    "timestamp": 1528416000000,
+    "dependencies": [],
+    "companions": [],
+    "framework": false,
+    "available": true,
+    "titansOnly": false,
+    "classicOnly": false,
+    "classic": false,
+    "titans": false,
+    "conflicts": {}
+}
