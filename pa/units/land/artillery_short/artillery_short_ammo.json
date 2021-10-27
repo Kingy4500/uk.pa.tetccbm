@@ -1,0 +1,25 @@
+{
+	"base_spec": "/pa/ammo/base_artillery/base_artillery.json",
+	"damage": 650,
+	"splash_damage": 400,
+	"splash_radius": 60,
+	"full_damage_splash_radius": 2,
+	"splash_damages_allies": false,
+	"initial_velocity": 260.0,
+	"lifetime": 30,
+	"max_health": 1,
+	"influence_radius": 400,
+	"Physics": {
+		"add_to_spatial_db": true
+	},
+	"audio_loop": "/SE/Movement/missile/artillery_short_missile_fly_loop",
+	"model": {
+		"filename": "/pa/units/air/shell_large/shell_large.papa"
+	},
+	"events": {
+		"died": {
+			"audio_cue": "/SE/Impacts/missile_artillery_short",
+			"effect_spec": "/pa/effects/specs/default_explosion.pfx"
+		}
+	}
+}
